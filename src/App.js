@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main'; 
-import Footer from './components/Footer';
+// import Header from './components/Header';
+// import Main from './components/Main'; 
+// import Footer from './components/Footer';
+import Count from './components/Count';
 
 
 export default class App extends Component {
@@ -26,10 +27,11 @@ export default class App extends Component {
 
     return (
       <div>
-         <div className='app'>
-        <Header  data = {data}/>
+         <div className='App'>
+        {/* <Header  data = {data}/>
         <Main techlist={techs}/>
-        <Footer /> 
+        <Footer />  */}
+        <Count />
           </div>
         
       </div>
