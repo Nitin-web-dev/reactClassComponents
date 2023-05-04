@@ -15,7 +15,7 @@ export default class Header extends Component {
           <h3>{subtitle}</h3>
           <p>{`${author.firstName} ${author.lastName}`}</p>
           <small>{date}</small>
-       
+        
         </header>
     )
   }
